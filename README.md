@@ -33,7 +33,6 @@ Atores:
 
 Dificuldade:
 	Básica
-	Basic
 
 Ações:
 	Conversão de X quantidades de uma moeda em Y quantidades de outra moeda
