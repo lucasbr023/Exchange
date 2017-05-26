@@ -6,6 +6,20 @@ $(document).ready ->
     $("#currency").val(currency_destination)
     updateValue();
     return false;
+
+
+  $('#currency').change ->
+      updateValue();
+      return false;
+
+  $('#currency_destination').change ->
+      updateValue();
+      return false;
+
+  $('#quantity').change ->
+      updateValue();
+      return false;
+
   $('form').submit ->
     if $('form').attr('action') == '/exchange'
       updateValue();
